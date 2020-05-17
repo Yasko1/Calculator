@@ -45,7 +45,7 @@ public class CalculatorService {
     }
     private void checkForLimit(int a, int b){
         if(a<1 || a>10 || b<1 || b>10){
-            throw new RuntimeException("Don't meet the conditions of the limit");
+            throw new RuntimeException("Incorrect data");
         }
     }
 }
