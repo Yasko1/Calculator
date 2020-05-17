@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.Scanner;
 
 @Service
-public class ImplExpressionService {
+public class ExpressionService {
 
     private static final String message = "INPUT LINE : ";
     public int rightOperator = 0;
