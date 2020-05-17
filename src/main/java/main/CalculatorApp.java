@@ -1,11 +1,9 @@
-package main.controller;
+package main;
 
+import main.controller.CalculatorController;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.Scanner;
 
 @SpringBootApplication
 public class CalculatorApp implements CommandLineRunner {
