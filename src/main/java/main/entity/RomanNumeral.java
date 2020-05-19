@@ -1,4 +1,4 @@
-package main.model;
+package main.entity;
 
 public enum RomanNumeral {
     I("I", 1),
